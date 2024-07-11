@@ -1,0 +1,18 @@
+current directory: /Users/PauloDev/repos/blog_v2/vendor/bundle/ruby/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+/Users/PauloDev/.asdf/installs/ruby/3.3.3/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/PauloDev/repos/blog_v2/vendor/bundle/ruby/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240711-56633-pizzxo sitelibdir\=./.gem.20240711-56633-pizzxo clean
+
+current directory: /Users/PauloDev/repos/blog_v2/vendor/bundle/ruby/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240711-56633-pizzxo sitelibdir\=./.gem.20240711-56633-pizzxo
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/PauloDev/repos/blog_v2/vendor/bundle/ruby/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240711-56633-pizzxo sitelibdir\=./.gem.20240711-56633-pizzxo install
+/usr/local/bin/ginstall -c -m 0755 cparse.bundle ./.gem.20240711-56633-pizzxo/racc
+
+current directory: /Users/PauloDev/repos/blog_v2/vendor/bundle/ruby/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240711-56633-pizzxo sitelibdir\=./.gem.20240711-56633-pizzxo clean

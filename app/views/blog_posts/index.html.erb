@@ -1,18 +1,30 @@
 <div class="container w-full md:max-w-3xl mx-auto pt-20">
-  <div class="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal" style="font-family:Georgia,serif;">
-
+  <div class="w-full text-gray-800 leading-normal" style="font-family:Georgia,serif;">
   <% @blog_posts.each do |blog_post| %>
-  <div class="font-sans">
-    <h1 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">
-      <%= link_to blog_post.title, blog_post %>
-    </h1>
-    <p class="text-sm md:text-base font-normal text-gray-600">
-      Published <%= blog_post.created_at  %>
-    </p>
-    <p class="py-6">
-      <%= blog_post.body %>
-    </p>
+    <div class="font-sans">
+      <% if blog_post.draft? %>
+        <div class="px-4 md:px-6 text-xl bg-gray-300">
+      <% elsif blog_post.published?%>
+        <div class="px-4 md:px-6 text-xl">
+      <% else %>
+        <div class="px-4 md:px-6 text-xl bg-blue-200">
+      <% end %>
+      <h1 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">
+          <%= link_to blog_post.title, blog_post %>
+      </h1>
+      <p class="text-sm md:text-base font-normal text-gray-600">
+        <% if blog_post.published? %>
+          Published at: <%= blog_post.published_at %>
+        <% elsif blog_post.draft? %>
+          <p class="text-sm">Draft</p>
+        <% else %>
+          Will publish at: <%= blog_post.published_at %>
+        <% end %>
+      </p>
+      <p class="py-6">
+        <%= blog_post.body %>
+      </p>
+        </div>
+    </div>
   <% end %>
-
-  </div>
 </div>

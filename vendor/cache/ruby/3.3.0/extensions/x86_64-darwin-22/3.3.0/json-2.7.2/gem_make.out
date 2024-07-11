@@ -1,0 +1,16 @@
+current directory: /Users/PauloDev/repos/blog_v2/vendor/cache/ruby/3.3.0/gems/json-2.7.2/ext/json
+/Users/PauloDev/.asdf/installs/ruby/3.3.3/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/PauloDev/repos/blog_v2/vendor/cache/ruby/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240711-40413-x68hkk sitelibdir\=./.gem.20240711-40413-x68hkk clean
+
+current directory: /Users/PauloDev/repos/blog_v2/vendor/cache/ruby/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240711-40413-x68hkk sitelibdir\=./.gem.20240711-40413-x68hkk
+make: Nothing to be done for `all'.
+
+current directory: /Users/PauloDev/repos/blog_v2/vendor/cache/ruby/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240711-40413-x68hkk sitelibdir\=./.gem.20240711-40413-x68hkk install
+
+current directory: /Users/PauloDev/repos/blog_v2/vendor/cache/ruby/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240711-40413-x68hkk sitelibdir\=./.gem.20240711-40413-x68hkk clean
